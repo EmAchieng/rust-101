@@ -6,3 +6,7 @@ edition = "2021"
 [dependencies]
 serde = "1.0.210"
 serde_json = "1.0.128"
+
+[[bin]]
+name = "rust-101"
+path = "src/main.rs"

@@ -1,17 +1,17 @@
-pub fn power_of_2_for(number: i32) -> i32 {
-    todo!()
+pub fn add(a: i32, b: i32) -> i32 {
+    a + b
 }
 
-pub fn get_max(first: i64, second: i64) -> i64 {
-    todo!()
+pub fn subtract(a: i32, b: i32) -> i32 {
+    a - b
 }
 
 pub fn hello(name: String) -> String {
-    format!("Hello {name}")
+    format!("Hello, {}!", name)
 }
 
 pub fn another_hello(name: String) -> String {
-    return format!("Hello {name}");
+    format!("Hi, {}!", name)
 }
 
 #[cfg(test)]

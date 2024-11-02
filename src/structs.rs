@@ -1,19 +1,18 @@
 /// There are not classes in Rusts, only structs
 /// You can implement logic for structs in the respective
 /// "impl" Blocks.
-
-struct Person {
-    age: u8,
+pub struct Person {
+    pub age: u32,
     pub name: String,
 }
 
 impl Person {
-    pub fn get_age(&self) -> u8 {
-        todo!()
+    pub fn get_age(&self) -> u32 {
+        self.age
     }
 
     pub fn birthday(&mut self) {
-        todo!()
+        self.age += 1;
     }
 }
 
